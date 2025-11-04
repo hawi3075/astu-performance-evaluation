@@ -1,0 +1,135 @@
+/* Home.module.css */
+
+/* Make the whole page gray and full height */
+.pageWrapper {
+  font-family: sans-serif;
+  background-color: rgb(221, 218, 218); /* light gray */
+  min-height: 100vh; /* fill full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Navigation */
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+/* Brand Section */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logoImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.topLinks a {
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Search Bar */
+.searchBar {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.searchInput {
+  padding: 0.6rem 1rem;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: black;
+  background-color: white;
+}
+
+/* Main Grid */
+.mainGrid {
+  display: flex;
+  padding: 2rem;
+  flex: 1; /* fill remaining vertical space */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background-color: rgb(221, 218, 218); /* same gray as page */
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}
+
+.profile {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.sideLinks a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.sideLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Content Area */
+.content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding-left: 2rem;
+}
+
+/* Card Styling */
+.card {
+  background-color: white; /* leave card white */
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}

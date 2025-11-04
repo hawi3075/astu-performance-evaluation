@@ -1,0 +1,16 @@
+/* Header.module.css */
+
+.header {
+  background-color: #0070f3;
+  color: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #005bb5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}

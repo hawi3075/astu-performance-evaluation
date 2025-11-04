@@ -1,0 +1,148 @@
+.pageWrapper {
+  font-family: sans-serif;
+  background-color: #e0f2e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #0070f3;
+}
+
+/* Top Navigation */
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logoImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.logoText {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navLinks a {
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+.mainLayout {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: white;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.profileBox p {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.menu h3 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+}
+
+.cardRow {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #0070f3;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.resultSection {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+/* Card Row */
+.cardRow {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* First card: normal size */
+.card:first-child {
+  flex: 1;
+}
+
+/* Second card: maximized */
+.card:last-child {
+  flex: 2; /* 🔁 Wider than the first card */
+}
